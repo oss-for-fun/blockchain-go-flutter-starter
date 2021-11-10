@@ -16,7 +16,7 @@ class BlockchainStarterApp extends StatelessWidget {
   Widget build(BuildContext context) {
     printTextInConsole("building UI");
     return MaterialApp(
-      title: 'Treasure Club',
+      title: 'Blockchain Starter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

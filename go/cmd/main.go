@@ -24,7 +24,7 @@ func main() {
 	initDatabase()
 	tlog.ReplaceLogger(logger)
 
-	tlog.Info("Starting treasure club...")
+	tlog.Info("Starting blockchain starter...")
 	// DO NOT EDIT, add options in options.go
 	mainOptions := []flutter.Option{
 		flutter.OptionVMArguments(strings.Split(vmArguments, ";")),
